@@ -1,6 +1,6 @@
 import sys
-from os import path as p
-app_home = p.abspath(p.join(p.dirname(p.abspath(__file__)), '..'))
+from os import path
+app_home = path.abspath(path.join(path.dirname(path.abspath(__file__)), '..'))
 sys.path.append(app_home)
 
 from conf.city_conf import CITY_CONF
