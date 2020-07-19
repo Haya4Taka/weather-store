@@ -14,7 +14,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/
@@ -130,3 +130,6 @@ dmypy.json
 
 # PyCharm
 .idea
+
+# test db conf
+test_db_conf
